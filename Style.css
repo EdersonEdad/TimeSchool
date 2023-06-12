@@ -1,0 +1,1739 @@
+@font-face {
+  font-family: 'appleberry';
+  src: url(fonts/appleberry.ttf);
+}
+
+body{
+  background-image: url('Website Pictures/Formula.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%; 
+}
+
+.border{
+  height: 100px;
+  width: 100px;
+  float: left;
+  overflow: hidden;
+}
+
+.logo img{
+ display: block;
+ width: 100%;
+}
+
+.title{
+  margin-left: 150px;
+  font-size: 70px;
+  color: green;
+  font-family: "appleberry", sans-serif;
+}
+
+div.shesh{
+  padding-top: 10px;
+  background-color:black;
+  height: 10px;
+  width: 1500px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  float: left;
+}
+
+nav a{
+  height: 20px;
+  width: 335px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  padding: 5px 20px;
+  font-family: "appleberry", sans-serif;
+  background-color: #ffffff;
+  cursor:pointer;
+}
+
+nav a:hover{
+background: green;
+color: white;
+}
+
+.books{
+position: relative;
+}
+
+.books img{
+margin-left: 300px ;
+width: 1000px;
+height: 490px;
+}
+
+.books .timeschool{
+position: absolute;
+font-family: "appleberry", sans-serif;
+margin-left: 910px;
+top: 0px;
+left: 40px;
+color: white;
+font-size: 55px;
+}
+
+.books .education{
+position: absolute;
+font-family: "appleberry", sans-serif;
+margin-left: 800px;
+margin-right: 250px;
+color: green;
+font-size: 20px;
+top: 70px;
+left: 40px;
+}
+
+.books .icon a{ 
+  position: absolute;
+  margin-left: 1000px;
+  font-size: 25px;
+  top: 150px; 
+  width: 250px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor:pointer;
+  display:block;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  background: white;
+}
+
+.icon a:hover{
+background: green;
+color: white;
+transform: translateY(-5px);
+}
+
+.books .account a{ 
+  position: absolute;
+  margin-left: 1000px;
+  font-size: 25px;
+  top: 200px; 
+  width: 250px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor:pointer;
+  display:block;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  background: white;
+}
+
+.account a:hover{
+background: green;
+color: white;
+transform: translateY(-5px);
+}
+
+.books .uniform{
+  position: absolute;
+  width: 200px;
+  height: 130px;
+  background: white;
+  top: 18px;
+  margin-left: 225px; 
+  cursor:pointer;
+}
+
+.border1{
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 10px;
+  width: 85px;
+  height: 85px;
+  background-color: black;
+  border-radius: 50%;
+}
+.uniform1 a{
+  position: absolute;
+  color: black;
+  font-family: "appleberry", sans-serif;
+  font-size:  25px;
+  margin-left: 55px;
+  margin-top: 90px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.uniform1:hover a{
+  color: white;
+}
+
+.uniform img{
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 15px;
+  width: 55px;
+  height: 55px;
+  top: 0px;
+  cursor:pointer;
+  object-fit: cover;
+
+}
+
+.uniform:hover {
+  background: green;
+}
+
+.border2{
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 10px;
+  width: 85px;
+  height: 85px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.prof1 a{
+  position: absolute;
+  color: black;
+  font-family: "appleberry", sans-serif;
+  font-size:  25px;
+  margin-left: 38px;
+  margin-top: 90px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.prof1:hover a{
+  color: white;
+}
+
+.border2 img{
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 16px;
+  width: 57px;
+  height: 57px;
+  top: 0px;
+  cursor:pointer;
+  object-fit: cover;
+}
+
+.books .professors{
+  position: absolute;
+  width: 200px;
+  height: 130px;
+  background: white;
+  top: 175px;
+  margin-left: 225px; 
+  cursor:pointer;
+}
+
+.professors:hover{
+  background: green;
+}
+
+.books .tsfaculty{
+  position: absolute;
+  width: 200px;
+  height: 130px;
+  background: white;
+  top: 332px;
+  margin-left: 225px; 
+  cursor:pointer;
+}
+
+.tsfaculty:hover{
+  background: green;
+}
+
+.border3{
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 10px;
+  width: 85px;
+  height: 85px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.faculty1 a{
+  position: absolute;
+  color: black;
+  font-family: "appleberry", sans-serif;
+  font-size:  25px;
+  margin-left: 57px;
+  margin-top: 90px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.faculty1:hover a{
+  color: white;
+}
+
+.border3 img{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 14px;
+  width: 55px;
+  height: 55px;
+  top: 0px;
+  cursor:pointer;
+  object-fit: cover;
+}
+
+.books .professors{
+  position: absolute;
+  width: 200px;
+  height: 130px;
+  background: white;
+  top: 175px;
+  margin-left: 225px; 
+  cursor:pointer;
+}
+
+.professors:hover{
+  background: green;
+}
+
+.below{
+  margin: 0px 210px;
+  width:  1160px;
+  height: 390px;
+  background-color: white;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px black;
+    
+}
+
+.quality{
+  position: absolute;
+  border: 5px solid black;
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 350px;
+  width: 250px;
+  box-shadow: -5px 5px 3px #579759;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.quality img{
+  position: relative;
+  width: 250px;
+  height: 175px;  
+}
+
+.quality:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.quality1{
+  position: relative;
+  height: 50px;
+  width: 250px;
+  background-color: #27964D;
+}
+
+.quality1 img{
+  position: relative;
+  margin-left: 15;
+  height: 50px;
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+
+.quality2{
+  position: relative;
+  font-size: 32px;
+  margin-top: -46px;
+  margin-left: 85px;
+  font-family: "appleberry", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.description1{
+  margin-top: 5px;
+}
+
+.skills{
+  position: absolute;
+  margin:  15px 305px;
+  height: 350px;
+  width: 250px;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px #DED057;
+  transition: 0.3s;  
+  background-color: white;
+}
+
+.skills:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.skills img{
+position: relative;
+width: 250px; 
+height: 175px;
+}
+
+.skills1{
+  position: relative;
+  height: 50px;
+  width: 250px;
+  background-color: #D5E00D;
+}
+
+.skills1 img{
+  position: relative;
+  margin-left: 15;
+  height: 50px;
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+
+.skills2{
+  position: relative;
+  font-size: 32px;
+  margin-top: -46px;
+  margin-left: 85px;
+  font-family: "appleberry", sans-serif;
+}
+
+.description2{
+  margin-top: 5px;
+}
+
+.competency{
+  position: absolute;
+  border: 5px solid black;
+  margin: 15px 595px;
+  height: 350px;
+  width: 250px;
+  box-shadow: -5px 5px 3px #2849DA;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.competency:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.competency img{
+  position: relative;
+  width: 250px;
+  height: 175px;
+}
+
+.competency1{
+  position: relative;
+  height: 50px;
+  width: 250px;
+  background-color: #1B41DA;
+}
+
+.competency1 img{
+  position: relative;
+  margin-left: 15;
+  height: 50px;
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+
+
+.competency2{
+  position: relative;
+  font-size: 30px;
+  margin-top: -46px;
+  margin-left: 65px;
+  font-family: "appleberry", sans-serif;
+}
+
+.description3{
+  margin-top: 5px;
+}
+
+.facility{
+  position: absolute;
+  border: 5px solid black;
+  margin: 15px 885px;
+  height: 350px;
+  width: 250px;
+  box-shadow: -5px 5px 3px #CC120C;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.facility:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.facility img{
+  position: relative;
+  width: 250px;
+  height: 175px;
+}
+
+.facility1{
+  position: relative;
+  height: 50px;
+  width: 250px;
+  background-color: #EF0707;
+}
+
+.facility1 img{
+  position: relative;
+  margin-left: 15px;
+  margin-top: 7px;
+  height: 40px;
+  width: 40px;
+  filter: brightness(0) invert(1);
+}
+
+
+.facility2{
+  position: relative;
+  font-size: 30px;
+  margin-top: -46px;
+  margin-left: 75px;
+  font-family: "appleberry", sans-serif;
+}
+
+.description4{
+  margin-top: 5px;
+}
+
+.info{
+  padding-top: 10px;
+  background-color:black;
+  height: 10px;
+  width: 1500px;
+}
+
+.info1{
+  position: relative;
+  padding-top: 10px;
+  background-color: white;
+  height: 100px;
+  width: 1500px;
+}
+
+.soc{
+  position: relative;
+  margin-top: -10px;
+  margin-left: 90px;
+  width: 50px;
+  height: 110px; 
+}
+.fb{
+  transition: 0.3s;
+}
+
+.fb img{
+  position: relative;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.fb:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.tt{
+  transition: 0.3s;
+}
+
+.tt img{
+  position: relative;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.tt:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.info2{
+  position: relative;
+  height: 110px;
+  width: 450px;
+  margin-left: 150px;
+  margin-top: -110px;
+}
+
+.design{
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray; 
+}
+
+.owner{
+  font-size: 40px;
+}
+
+.owner1{
+  color: gray;
+  font-size: 20px;
+}
+
+.info3{
+  position: relative;
+  margin-left: 500px;
+  margin-top: -120px;
+  width: 150px;
+  height: 110px;
+}
+
+.sp{
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+.link{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.link a{
+  cursor:pointer;
+}
+
+.discipline{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
+.discipline1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 187px;
+  box-shadow: -5px 5px 3px #579759;
+}
+
+.dstitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.ds-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+.ds-pic{
+  position: relative;
+  margin-left: 770px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: -5px 5px 3px #579759;
+} 
+
+.ds-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.passionate{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 320px;
+}
+
+.passionate1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 700px;
+  height: 187px;
+  box-shadow: 5px 5px 3px #579759;
+}
+
+.pstitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.ps-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+
+.ps-pic{
+  position: relative;
+  margin-left: 20px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: 5px 5px 3px #579759;
+} 
+
+.ps-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.time-management{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 570px;
+}
+
+.time-management1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 187px;
+  box-shadow: -5px 5px 3px #579759;
+}
+
+.tmtitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.tm-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+.tm-pic{
+  position: relative;
+  margin-left: 770px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: -5px 5px 3px #579759;
+} 
+
+.tm-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.organization{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 570px;
+}
+
+.organization1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 187px;
+  box-shadow: -5px 5px 3px #579759;
+}
+
+.ogtitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.og-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+.og-pic{
+  position: relative;
+  margin-left: 770px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: -5px 5px 3px #579759;
+} 
+
+.og-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.motivation{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 820px;
+}
+
+.motivation1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 700px;
+  height: 187px;
+  box-shadow: 5px 5px 3px #579759;
+}
+
+.mttitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.mt-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+
+.mt-pic{
+  position: relative;
+  margin-left: 20px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: 5px 5px 3px #579759;
+} 
+
+.mt-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.time-management{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 1070px;
+}
+
+.time-management1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 187px;
+  box-shadow: -5px 5px 3px #579759;
+}
+
+.tmtitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.tm-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+.tm-pic{
+  position: relative;
+  margin-left: 770px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: -5px 5px 3px #579759;
+} 
+
+.tm-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.persistence{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 1320px;
+  
+}
+
+.persistence1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 700px;
+  height: 187px;
+  box-shadow: 5px 5px 3px #579759;
+}
+
+.prtitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.pr-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+
+.pr-pic{
+  position: relative;
+  margin-left: 20px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: 5px 5px 3px #579759;
+} 
+
+.pr-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.responsibility{
+  position: absolute;
+  width: 1200px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 1570px;
+  
+}
+
+.responsibility1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 187px;
+  box-shadow: -5px 5px 3px #579759;
+}
+
+.rstitle{
+  position: relative;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  border: 5px solid #86B049;
+  background-color: #f1dddf;
+  
+}
+
+.rs-des{
+  position: relative;
+  font-size: 17px;  
+  height: 110px;
+  border: 5px solid #86B049;
+  color: black;
+  background-color: #C8B88A;
+}
+
+.rs-pic{
+  position: relative;
+  margin-left: 770px ;
+  margin-top: 30px;
+  background-color: #1B41DA;
+  width: 320px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: -5px 5px 3px #579759;
+} 
+
+.rs-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-{
+  position: absolute;
+  margin-top: 1820px;
+  padding-top: 10px;
+  background-color:black;
+  height: 10px;
+  width: 1500px;
+}
+
+.info1-{
+  position: relative;
+  margin-top: 1830px;
+  padding-top: 10px;
+  background-color: white;
+  height: 100px;
+  width: 1500px;
+}
+
+.soc-{
+  position: relative;
+  margin-top: -10px;
+  margin-left: 90px;
+  width: 50px;
+  height: 110px; 
+}
+.fb-{
+  transition: 0.3s;
+}
+
+.fb- img{
+  position: relative;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.fb-:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.tt-{
+  transition: 0.3s;
+}
+
+.tt- img{
+  position: relative;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.tt-:hover{
+  transform:scale(1.03);
+  z-index: 1;
+}
+
+.info2-{
+  position: relative;
+  height: 110px;
+  width: 450px;
+  margin-left: 150px;
+  margin-top: -110px;
+}
+
+.design-{
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray; 
+}
+
+.owner-{
+  font-size: 40px;
+}
+
+.owner1-{
+  color: gray;
+  font-size: 20px;
+}
+
+.info3-{
+  position: relative;
+  margin-left: 500px;
+  margin-top: -120px;
+  width: 150px;
+  height: 110px;
+}
+
+.sp-{
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+.link-{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.link- a{
+  cursor:pointer;
+}
+
+.About{
+  width: 1100px;
+  height: 85px;
+  background-color: white;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 85px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "appleberry", sans-serif;
+  border: 8px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.About:hover{  
+  transform:scale(1.03);
+  z-index: 1; 
+  color: white;
+  background-color: #27964D;
+}
+
+.description-about{
+  background-color: #579759;
+  position: absolute;
+  height: 1500px;
+  width: 1100px;
+  margin-left: 180px;
+  margin-top: 250px;
+  border: 8px solid black;
+  box-shadow: -5px 5px 3px black;
+}
+
+.About_bg{
+  position: absolute;
+  margin-left: 800px;
+  height: 1500px;
+  width: 300px;
+  background-color: maroon;
+}
+
+.About-the-website{
+  position: absolute;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+}
+
+.des-the-website{
+  position: relative;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 170px;
+  color: white;
+}
+
+.who{
+  position: relative;
+  font-size: 40px;
+  margin-top: 40px;
+  font-family: "appleberry", sans-serif;
+  margin-left: 40px;
+}
+.border_me{
+  position: absolute;
+  width: 800px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.me{
+  position: relative;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: #1B41DA;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #86B049;
+  box-shadow: -5px 5px 3px #579759;
+}
+
+.me_name{
+  position: relative;
+  margin-top: -100px;
+  margin-left: 200px;
+  font-size: 40px;
+}
+.me_name p{
+  margin-top: 4px;
+  font-size: 20px;
+}
+
+.me img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+.des-who{
+  position: relative;
+  font-size: 22px;
+  font-family: "appleberry", sans-serif;
+  margin-top: 250px;
+  margin-left: 30px;
+  margin-right: 170px;
+  color: #ffffff;
+}
+
+.Achievements{
+  position: absolute;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: "appleberry", sans-serif;
+  color: black;
+}
+
+.Achievements1{
+  position: relative;
+  font-size: 20px;
+  margin-top: 120px;
+  margin-left: 40px;
+  font-family: "appleberry", sans-serif;
+  color: white;
+}
+
+.Uniform_container{
+position: absolute;
+background-color:#27964D;
+margin-top: 90px;
+margin-left: 250px;
+width: 1000px;
+height: 620px;
+border: 5px solid black;
+box-shadow: -5px 5px 3px black;
+}
+
+.Uniform_title{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 950px;
+  height:50px;
+  background-color: white;
+  font-size: 40px;
+  font-family: "appleberry", sans-serif;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px black;
+}
+
+.uniform_picture{
+position: absolute;
+width: 350px;
+height: 400px;
+margin-top: 30px;
+margin-left: 70px;
+border: 5px solid black;
+box-shadow: -5px 5px 3px black;
+
+}
+
+.uniform_picture img{
+position: relative;
+width: 350px;
+height: 400px;
+}
+
+.uniform_description{
+  position: absolute;
+  font-family: "appleberry", sans-serif;
+  margin-top: 490px;
+  margin-left: 150px;
+  font-size: 28px;
+}
+
+.uniform_picture1{
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 570px;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px black;
+  
+  }
+  
+  .uniform_picture1 img{
+  position: relative;
+  width: 350px;
+  height: 400px;
+  }
+  
+  .uniform_description1{
+    position: absolute;
+    font-family: "appleberry", sans-serif;
+    margin-top: 490px;
+    margin-left: 670px;
+    font-size: 28px;
+  }
+
+.Uniform_per-parts_container{
+  position: absolute;
+  background-color:#27964D;
+  margin-top: 750px;
+  margin-left: 250px;
+  width: 1000px;
+  height: 415px;
+  border: 5px solid black;
+ box-shadow: -5px 5px 3px black;
+}
+
+.Upper{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 900px;
+  height: 170px;
+  font-family: "appleberry", sans-serif; 
+  color: #27964D;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: -5px 5px 3px black;
+}
+
+.Upper_description{
+ position: relative;
+ margin-left: 15px;
+ font-size: 15px;
+ color: black;
+}
+
+.Lower{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 900px;
+  height: 170px;
+  font-family: "appleberry", sans-serif; 
+  color: #27964D;
+  background-color: white;
+  border: 3px solid black;
+ box-shadow: -5px 5px 3px black;
+}
+
+.Lower_description{
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 25px;
+  width: 900px;
+  height: 170px;
+  font-family: "appleberry", sans-serif; 
+  font-size: 15px;
+  color: black;
+ }
+
+.Elementary_title{
+  position: relative;
+  width: 1300px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 30px;
+  font-family: "appleberry", sans-serif;
+  text-align: center; 
+  color: #ffffff;
+}
+
+.Professor_container{
+position: absolute;
+background-color:#27964D;
+margin-top: 40px;
+margin-left: 100px;
+width: 1300px;
+height: 480px;
+border: 5px solid black;
+box-shadow: -5px 5px 3px black;
+}
+
+.Picture_container{
+position: absolute;
+width: 350px;
+height: 400px;
+margin-top: 30px;
+margin-left: 70px;
+border: 5px solid black;
+box-shadow: -5px 5px 3px black;
+}
+
+.Picture_container img{
+  position: relative;
+  width: 350px;
+  height: 400px;
+}
+
+.Professor_Information{
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: 600px;
+  width: 600px;
+  height: 400px;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px black;
+  font-size: 28px;
+  font-family: "appleberry", sans-serif; 
+  color: black;
+}
+
+.Professor_name{
+  position: relative;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.Professor_age{
+  position: relative;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Professor_age{
+  position: relative;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Professor_About_me{
+  position: relative;
+  font-size: 18px;
+  height: 230px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Professor_container1{
+  position: absolute;
+  background-color:#27964D;
+  margin-top: 600px;
+  margin-left: 100px;
+  width: 1300px;
+  height: 480px;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px black;
+}
+
+.Professor_container2{
+  position: absolute;
+  background-color:#27964D;
+  margin-top: 1180px;
+  margin-left: 100px;
+  width: 1300px;
+  height: 480px;
+  border: 5px solid black;
+  box-shadow: -5px 5px 3px black;
+}
+
+
+.Event_container{
+  width: 600px;
+  height: 280px;
+  float: left;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+
+.Event_title{
+  font-size: 30px;
+  font-family: "appleberry", sans-serif;
+  color: white;
+}
+
+.Event_description{
+  font-size: 23px;
+}
+
+.Event_container:hover{
+  background-color:#27964D;
+  color: black;
+}
+
+.Event_title:hover{
+  color: white;
+}
+
+.Date_container{
+  position: absolute;
+  width: 750px;
+  height: 720px;
+  margin-left: 750px;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+
+.Exact_date_container{
+  position: absolute;
+  width: 700px;
+  height: 150px;
+  background-color:#27964D;
+  margin-top: 65px; 
+}
+
+.Exact_date{
+  position: absolute;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+}
+
+.Date_Letter{
+  position: relative;
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "appleberry", sans-serif;
+}
+
+.Date_Number{
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: "appleberry", sans-serif;
+}
+
+.Date_description{
+  position: absolute;
+  margin-left: 160px;
+  font-size: 18px;
+  color: black;
+}
+
+.Date_details a{
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 33px;
+  margin-left: 160px;
+  font-size: 18px;
+  margin-top: 100px;
+  border-radius: 7px;
+  cursor:pointer;
+  display:block;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  background: white;
+  text-decoration: none;
+}
+
+ .Date_details a:hover{
+  color: white;
+  background-color: #27964D;
+}
+
+.Exact_date_container1{
+  position: absolute;
+  width: 700px;
+  height: 150px;
+  background-color:#27964D;
+  margin-top: 270px; 
+}
+
+.Exact_date_container2{
+  position: absolute;
+  width: 700px;
+  height: 150px;
+  background-color:#27964D;
+  margin-top: 465px; 
+}
+
+.Event_container1{
+  position: absolute;
+  width: 600px;
+  height: 280px;
+  margin-top: 350px;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+
+.Event_container1:hover{
+  background-color:#27964D;
+  color: black;
+}
+
+
+.background-frame{
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 45px;
+  background-color: white;
+  border: 7px solid black;
+}
+
+.background-frame img {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+}
+
+.event-description{
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 45px;
+  background-color: white;
+  border: 7px solid black;
+  font-family: "appleberry", sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+.second-picture-container{
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+.second-picture-container img{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  margin-top: 40px;
+  border: 7px solid black;
+}
+
+.event1-description1{
+  position: absolute;
+  width: 500px;
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 500px;
+  background-color: white;
+  border: 7px solid black;
+  font-family: "appleberry", sans-serif;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
